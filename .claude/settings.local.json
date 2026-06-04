@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"C:\\\\Users\\\\casto\\\\Data\\\\Nat_Massage\\\\nat_massage\\\\prisma\")",
+      "Bash(mkdir -p \"C:\\\\Users\\\\casto\\\\Data\\\\Nat_Massage\\\\nat_massage\\\\server\\\\routes\")",
+      "Bash(mkdir -p \"C:\\\\Users\\\\casto\\\\Data\\\\Nat_Massage\\\\nat_massage\\\\server\\\\lib\")",
+      "Bash(mkdir -p \"C:\\\\Users\\\\casto\\\\Data\\\\Nat_Massage\\\\nat_massage\\\\server\\\\middleware\")",
+      "Bash(mkdir -p \"C:\\\\Users\\\\casto\\\\Data\\\\Nat_Massage\\\\nat_massage\\\\src\\\\router\")",
+      "Bash(npm install *)",
+      "Bash(npx prisma *)",
+      "Bash(npx vue-tsc *)",
+      "Bash(npx tsx *)",
+      "Bash(curl -s http://localhost:3001/api/health)",
+      "Bash(curl -s -X POST http://localhost:3001/api/admin/login -H \"Content-Type: application/json\" -d '{\"password\":\"admin123\"}')",
+      "Bash(curl -s -X POST http://localhost:3001/api/admin/login -H \"Content-Type: application/json\" -d \"{\\\\\"password\\\\\":\\\\\"admin123\\\\\"}\")",
+      "Bash(curl *)",
+      "Bash(npx vite *)"
+    ]
+  }
+}
